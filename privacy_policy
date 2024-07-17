@@ -1,0 +1,31 @@
+Introduction
+
+This Privacy Policy describes how the chrome extensino Meeting Auto-Joiner handles information when you use it.
+
+Information Collection
+
+Our extension does not collect, store, or transmit any personal data. It requires access to Chrome identity, calendar, alarms, and tab management solely for functionality purposes, but does not save or externally transmit any data from these sources.
+
+Use of Permissions
+
+Chrome Identity: Used to authenticate your Google Calendar profile.
+Calendar: Accessing times and Google Meet links for accepted meetings in Google Calendar.
+Alarms: Used to set alarms for starting the chrome extension and automatically put users in the Meet waiting room.
+Tab Management: Used for opening a new tab when a new meeting starts.
+
+
+Data Storage and Transmission
+
+This extension does not store any user data locally or on remote servers. All operations are performed within the user's browser environment.
+
+Third-Party Access
+
+We do not share any information with third parties, as no data is collected or stored.
+
+Changes to This Policy
+
+We may update this Privacy Policy from time to time. We will notify users of any changes by posting the new Privacy Policy on this page.
+
+Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at hallqvist.petter@gmail.com.
