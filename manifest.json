@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Meeting Auto-Joiner",
+  "version": "0.0.2",
+  "description": "Automatically opens Google Meet links for your scheduled meetings.",
+  "permissions": [
+    "alarms",
+    "storage",
+    "identity",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "green_square_16px.png",
+      "48": "green_square_48px.png",
+      "128": "green_square_128px.png"
+    }
+  },
+  "icons": {
+      "16": "green_square_16px.png",
+      "48": "green_square_48px.png",
+      "128": "green_square_128px.png"
+  },
+
+  "oauth2": {
+    "client_id": "199019118646-5efa8b0jr1l38560k7jfuqsco9cvo8ai.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.readonly"
+    ]
+  }
+}

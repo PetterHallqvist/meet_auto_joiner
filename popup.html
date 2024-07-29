@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Auto-Joiner</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meeting Auto-Joiner</h1>
+        <p>Set the time to open meetings before or after the scheduled time.</p>
+        
+        <div id="slider-value">early reminder</div>
+        
+        <div class="slider-container">
+            <input type="range" min="-5" max="5" value="5" class="slider" id="time-slider">
+            <div class="slider-labels">
+                <span class="slider-label">Before</span>
+                <span class="slider-label">After</span>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <input type="number" id="time-offset" value="5" min="-5" max="5">
+            <span>minutes</span>
+        </div>
+        
+        <button id="set-time-button">Set Opening Time</button>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
